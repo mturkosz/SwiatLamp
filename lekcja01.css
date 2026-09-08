@@ -1,0 +1,291 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 1vh;
+}
+
+header h1{
+    font-size: 4vh;
+}
+
+nav ul{
+    padding: 0.9vh;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
+}
+
+nav ul li{
+    display: block;
+    text-align: center;
+    margin: 0 12%;
+    font-size: 1.5vh;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.sufitowe h1, .stojace h1, .biurkowe h1, .kinkiety h1{
+    font-size: 3.5vh;
+}
+.baner{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+}
+.baner img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.baner h2{
+    position: absolute;
+    font-size: 2vh;
+    color: white;
+    text-align: left;
+    bottom: 10%;
+    left: 5%;
+    padding: 2.5%;
+    box-shadow: 10px 10px 2px #4444447b;
+}
+
+.oferty h1{
+    font-size: 3vh;
+}
+
+.kategorie-main, .lampy-zdj{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.kategorie-main img, .lampy-zdj img{
+    height: 20vh;
+    border-radius: 1.5vh;
+    padding: 1.5vh;
+}
+
+.oferty a, .lampy-zdj a{
+    border-radius: 0.9vh;
+    padding: 0.7vh;
+    text-decoration: none;
+    font-size: 1.4vh;
+}
+
+.oferty a{
+    color: black;
+}
+
+.lampy-zdj a{
+    color: white;
+}
+
+.lampy-zdj h2{
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.oferty a{
+    font-weight: bold;
+}
+
+.produkt {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5vw;
+    width: 80%;
+    margin: 5vh auto;
+}
+
+.zdjecie {
+    width: 40%;
+}
+
+.zdjecie img {
+    width: 100%;
+    height: auto;
+    border-radius: 1.5vh;
+}
+
+.informacje {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.informacje h2 {
+    font-size: 4vh;
+    margin: 0 0 2vh;
+}
+
+.informacje h6{
+    font-weight: normal;
+}
+
+.cena {
+    font-size: 3vh;
+    font-weight: bold;
+    margin: 0;
+}
+
+.informacje button {
+    width: fit-content;
+    padding: 1.5vh 2vw;
+    font-size: 2vh;
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+
+.informacje h4{
+    font-weight: normal;
+}
+
+.specyfikacja {
+    margin-top: 4vh;
+    width: 100%;
+}
+
+.specyfikacja h3 {
+    font-size: 2.5vh;
+    margin-bottom: 1.5vh;
+}
+
+.specyfikacja table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.8vh;
+}
+
+.specyfikacja td {
+    padding: 1.2vh;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.specyfikacja td:first-child {
+    font-weight: bold;
+    width: 45%;
+}
+
+.kontakt {
+    width: 80%;
+    margin: 5vh auto;
+}
+
+.kontakt > h1 {
+    text-align: center;
+    font-size: 4vh;
+    margin-bottom: 5vh;
+}
+
+.kontakt-container {
+    display: flex;
+    justify-content: center;
+    gap: 8vw;
+}
+
+.dane-kontaktowe,
+.formularz {
+    width: 40%;
+}
+
+.dane-kontaktowe h2,
+.formularz h2 {
+    font-size: 3vh;
+}
+
+.dane-kontaktowe p {
+    font-size: 2vh;
+}
+
+.dane-kontaktowe h3 {
+    margin-top: 4vh;
+    font-size: 2.5vh;
+}
+
+.formularz form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formularz label {
+    font-size: 1.8vh;
+    margin-top: 1.5vh;
+    margin-bottom: 0.5vh;
+}
+
+.formularz input,
+.formularz textarea {
+    font-family: Arial;
+    font-size: 1.8vh;
+    padding: 1vh;
+    border: 1px solid #aaa;
+    border-radius: 0.7vh;
+}
+
+.formularz textarea {
+    height: 15vh;
+    resize: vertical;
+}
+
+.formularz button {
+    margin-top: 2vh;
+    padding: 1.5vh;
+    font-size: 1.8vh;
+    border: none;
+    border-radius: 0.8vh;
+    cursor: pointer;
+}
+
+footer{
+    padding: 1vh;
+    font-weight: normal;
+    text-align: left;
+    color: white;
+}
+
+footer .platnosci-dostawy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer h4{
+    text-align: center;
+}
+
+footer .platnosc{
+    background-color: #ffffff87;
+    width: 50vw;
+    max-width: 80vh;
+}
+
+footer .dostawa{
+    padding-right: 3vw;
+    width: 20vw;
+}
+
