@@ -11,8 +11,8 @@ header{
     padding: 1vh;
 }
 
-header h1{
-    font-size: 4vh;
+.logo{
+    height: 10vh;
 }
 
 nav ul{
