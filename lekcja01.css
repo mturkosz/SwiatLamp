@@ -1,10 +1,10 @@
-body{
+body {
     font-family: Arial;
     margin: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     color: white;
     font-weight: bold;
     text-align: center;
@@ -15,7 +15,7 @@ header{
     height: 10vh;
 }
 
-nav ul{
+nav ul {
     padding: 0.9vh;
     list-style-type: none;
     display: flex;
@@ -24,33 +24,38 @@ nav ul{
     justify-content: center;
 }
 
-nav ul li{
+nav ul li {
     display: block;
     text-align: center;
     margin: 0 12%;
     font-size: 1.5vh;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: black;
 }
 
-main{
+main {
     text-align: center;
     margin-bottom: 3vh;
 }
 
-.sufitowe h1, .stojace h1, .biurkowe h1, .kinkiety h1{
+.sufitowe h1,
+.stojace h1,
+.biurkowe h1,
+.kinkiety h1 {
     font-size: 3.5vh;
 }
-.baner{
+
+.baner {
     position: relative;
     width: 100%;
     height: 40vh;
     overflow: hidden;
 }
-.baner img{
+
+.baner img {
     width: 100%;
     height: 40vh;
     object-fit: cover;
@@ -58,7 +63,7 @@ main{
     display: block;
 }
 
-.baner h2{
+.baner h2 {
     position: absolute;
     font-size: 2vh;
     color: white;
@@ -69,43 +74,47 @@ main{
     box-shadow: 10px 10px 2px #4444447b;
 }
 
-.oferty h1{
+.oferty h1 {
     font-size: 3vh;
 }
 
-.kategorie-main, .lampy-zdj{
+.kategorie-main,
+.lampy-zdj {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.kategorie-main img, .lampy-zdj img{
+.kategorie-main img,
+.lampy-zdj img {
     height: 20vh;
-    border-radius: 1.5vh;
-    padding: 1.5vh;
+    border-radius: 4vh;
+    margin: 1.5vh;
+    box-shadow: 5px 5px 3px #4444447b;
 }
 
-.oferty a, .lampy-zdj a{
+.oferty a,
+.lampy-zdj a {
     border-radius: 0.9vh;
     padding: 0.7vh;
     text-decoration: none;
     font-size: 1.4vh;
 }
 
-.oferty a{
+.oferty a {
     color: black;
 }
 
-.lampy-zdj a{
+.lampy-zdj a {
     color: white;
 }
 
-.lampy-zdj h2{
+.lampy-zdj h2 {
     font-weight: 600;
     margin-top: 0;
 }
 
-.oferty a{
+.oferty a {
     font-weight: bold;
 }
 
@@ -126,7 +135,7 @@ main{
 .zdjecie img {
     width: 100%;
     height: auto;
-    border-radius: 1.5vh;
+    border-radius: 4vh;
 }
 
 .informacje {
@@ -141,7 +150,7 @@ main{
     margin: 0 0 2vh;
 }
 
-.informacje h6{
+.informacje h6 {
     font-weight: normal;
 }
 
@@ -160,7 +169,7 @@ main{
     cursor: pointer;
 }
 
-.informacje h4{
+.informacje h4 {
     font-weight: normal;
 }
 
@@ -196,7 +205,7 @@ main{
     margin: 5vh auto;
 }
 
-.kontakt > h1 {
+.kontakt>h1 {
     text-align: center;
     font-size: 4vh;
     margin-bottom: 5vh;
@@ -261,31 +270,30 @@ main{
     cursor: pointer;
 }
 
-footer{
+footer {
     padding: 1vh;
     font-weight: normal;
     text-align: left;
     color: white;
 }
 
-footer .platnosci-dostawy{
+footer .platnosci-dostawy {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-footer h4{
+footer h4 {
     text-align: center;
 }
 
-footer .platnosc{
+footer .platnosc {
     background-color: #ffffff87;
     width: 50vw;
     max-width: 80vh;
 }
 
-footer .dostawa{
+footer .dostawa {
     padding-right: 3vw;
     width: 20vw;
 }
-
